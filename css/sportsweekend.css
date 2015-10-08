@@ -1,0 +1,172 @@
+﻿@viewport{
+    width:1000px;
+}
+@font-face{
+    font-family: titleFont;
+    src:url(../Sablon_Up_College_Alt.otf);
+}
+
+html{
+    background-color: #550000;
+    overflow-x:hidden;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+    color:#666666;
+}
+.slideContainer{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+}
+.slideContent{
+	max-width: 450px;
+	margin: -150px auto 0px auto;
+	display: table-cell;
+	vertical-align: middle;
+	color: #666666;
+	padding: 0 16.66%;
+	text-align: left;
+}
+.bcg{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1000px;
+    max-width: 100%;
+    display:block;
+}
+#slide-6 .bcg{
+    background-image:url('../img/luke_falk_scanning.jpg')
+}
+
+#slide-5 .bcg {
+    background-image: url('../img/taylor_taliulu_ready.jpg');
+}
+
+/*CSS - Slide 2 */
+#slide-2 .bcg{
+    background: none;
+    background-color: #981e32;
+    height: 100%;
+    text-align: center;
+    color:rgb(85,0,0);
+}
+
+
+/* Slide 4 */
+.curtainContainer {
+    width: 100%; height: 100%;
+    position: relative;
+}
+.curtainContainer .curtain {
+    width: 300%; height: 1px;
+    background-color: #000000;
+    position: absolute; top: 25%; left: 0;
+    opacity: 0
+}
+.curtainContainer .copy {
+    position: absolute;
+    bottom: 30%; left: 100px;
+    width: 100%; text-align: center;
+}
+#slide-3 .bcg {
+    background-image:url('../img/elson_reprimands_butch.jpg')}
+
+#slide-4 .bcg{
+    background-image: url('../img/butch_surprised.jpg');
+}
+
+section{
+    min-width:960px;
+    opacity:1;
+}
+.slideContent #slide-2 h4{
+    max-width:100%;
+    margin:0px;
+    color: white;
+    font-size:74px;
+    font-family:titleFont;
+    margin-top:50px;
+}
+.slideContent #slide-2 p{
+    max-width:100%;
+    margin:0px;
+    color:white;
+    font-size:24px;
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+/*
+
+Slides that will come in from side
+(Not yet implemented)
+
+
+.sideScroll {
+    width:1500px;
+    height:1000px;
+    float:left;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    position:relative;
+    display:block;
+}
+.sideSlideContainer, .sideSlideContainer > .sideSlideContent{
+    width:6000px;
+    height:1000px;
+    float:left;
+    top:0px;
+    left:0px;
+    display:block;
+    position:inherit;
+}
+.sideSlideContainer .sideSlide1{
+    width:1500px;
+    height:1000px;
+    float:left;
+    background:url('../img/butch_pointing.jpg');
+    display:block;
+    position:inherit;
+    top:0px;
+    left:0px;
+}
+.sideSlideContainer .sideSlide2{
+    width:1500px;
+    height:1000px;
+    float:left;
+    background: url('../img/butch_pumped.jpg');
+    display:block;
+    position:inherit;
+    top:0px;
+    left:1500px;
+}
+.sideSlideContainer .sideSlide3{
+    width:1500px;
+    height:1000px;
+    float:left;
+    background: url('../img/butch_surprised.jpg');
+    display:block;
+    position:inherit;
+    top:0px;
+    left:3000px;
+}
+
+*/
+
+.sticky{
+    position:fixed;
+	right:0px;
+	padding:10px;
+	z-index: 9999;
+	
+}
