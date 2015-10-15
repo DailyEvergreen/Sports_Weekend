@@ -43,16 +43,52 @@ body{
     max-width: 100%;
     display:block;
 }
-#slide-6 .bcg{
-    background-image:url('../img/luke_falk_scanning.jpg')
+/* 
+
+This attribute is used only for the DE logo
+z-index determines stack order of an element
+(9999 = the logo is very important)
+
+ */
+.sticky{
+    position:fixed;
+    right:0px;
+    padding:10px;
+    z-index: 9999;
+    
 }
 
-#slide-5 .bcg {
+/* 
+
+The following are pictures in order of appearance
+(Add new images to the top) 
+
+*/
+
+#luke_falk_scanning .bcg{
+    background-image:url('../img/luke_falk_scanning.jpg');
+}
+
+#taylor_taliulu_ready .bcg {
     background-image: url('../img/taylor_taliulu_ready.jpg');
 }
 
-/*CSS - Slide 2 */
-#slide-2 .bcg{
+#elson_reprimands_butch .bcg {
+    background-image:url('../img/elson_reprimands_butch.jpg');
+}
+
+#butch_surprised .bcg{
+    background-image: url('../img/butch_surprised.jpg');
+}
+
+/* 
+
+These are text slides named the same as their section ID names and anchors 
+One per text slide, in order of appearance
+(Add new slides above old ones) 
+
+*/
+#Cool_Hand_Luke .bcg{
     background: none;
     background-color: #981e32;
     height: 100%;
@@ -60,8 +96,51 @@ body{
     color:rgb(85,0,0);
 }
 
+#His_Brothers_Keeper .bcg{
+    background: none;
+    background-color: #981e32;
+    height: 100%;
+    text-align: center;
+    color:rgb(85,0,0);
+}
 
-/* Slide 4 */
+#ESF_Athletes_Sports .bcg{
+    background: none;
+    background-color: #981e32;
+    height: 100%;
+    text-align: center;
+    color:rgb(85,0,0);
+}
+
+/*
+
+These attributes are used as the div class of every text slide
+
+*/
+
+.slideContent #text_slide h4{
+    max-width:100%;
+    margin:0px;
+    color: white;
+    font-size:74px;
+    font-family:titleFont;
+    margin-top:50px;
+}
+
+.slideContent #text_slide p{
+    max-width:100%;
+    margin:0px;
+    color:white;
+    font-size:24px;
+    font-family:'Open Sans', sans-serif;
+}
+
+/* 
+
+Not sure if these will be used for sidescrolling or something
+
+*/
+
 .curtainContainer {
     width: 100%; height: 100%;
     position: relative;
@@ -77,39 +156,17 @@ body{
     bottom: 30%; left: 100px;
     width: 100%; text-align: center;
 }
-#slide-3 .bcg {
-    background-image:url('../img/elson_reprimands_butch.jpg')}
-
-#slide-4 .bcg{
-    background-image: url('../img/butch_surprised.jpg');
-}
 
 section{
     min-width:960px;
     opacity:1;
 }
-.slideContent #slide-2 h4{
-    max-width:100%;
-    margin:0px;
-    color: white;
-    font-size:74px;
-    font-family:titleFont;
-    margin-top:50px;
-}
-.slideContent #slide-2 p{
-    max-width:100%;
-    margin:0px;
-    color:white;
-    font-size:24px;
-    font-family:'Open Sans', sans-serif;
-    
-}
+
 
 /*
 
-Slides that will come in from side
-(Not yet implemented)
-
+Sidescrolling Slides
+(To be implemented)
 
 .sideScroll {
     width:1500px;
@@ -163,10 +220,36 @@ Slides that will come in from side
 
 */
 
-.sticky{
-    position:fixed;
-	right:0px;
-	padding:10px;
-	z-index: 9999;
-	
+/* Templates
+
+
+This is a text slide
+
+#Text_Slide_Name .bcg{
+    background: none;
+    background-color: #981e32;
+    height: 100%;
+    text-align: center;
+    color:rgb(85,0,0);
 }
+
+Backup text slide properties
+
+.slideContent #text_slide h4{
+    max-width:100%;
+    margin:0px;
+    color: white;
+    font-size:74px;
+    font-family:titleFont;
+    margin-top:50px;
+}
+.slideContent #text_slide p{
+    max-width:100%;
+    margin:0px;
+    color:white;
+    font-size:24px;
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+*/
