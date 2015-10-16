@@ -32,7 +32,7 @@ body {
 	padding: 6px; 
 	height: 100%; 
 	max-width: 100%; 
-	background-color: black;
+	background-color: #666666;
 	background-size: cover; 
 	background-repeat: no-repeat; 
 }
@@ -55,12 +55,22 @@ body {
 	text-indent: 16px; 
 }
 
+.content h1 {
+	padding: 1px; 
+	color: white; 
+	text-align: center; 
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 35px; 
+	margin-left: 5px; 
+	margin-right: 5px; 
+}
+
 .content h2 {
 	padding: 1px; 
 	color: white; 
 	text-align: center; 
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 23px; 
+	font-size: 22px; 
 	margin-left: 5px; 
 	margin-right: 5px; 
 }
@@ -70,7 +80,7 @@ body {
 	color: white; 
 	text-align: center; 
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	font-size: 13px; 
+	font-size: 22px; 
 }
 
 .footer h2 {

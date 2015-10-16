@@ -16,6 +16,7 @@ body{
     margin:0px;
     color:#666666;
 }
+
 .slideContainer{
     display: table;
     table-layout: fixed;
@@ -65,8 +66,8 @@ The following are pictures in order of appearance
 
 */
 
-#Dummy_Photo .bcg{
-    background-image:url('../img/happy_gilmore.jpg');
+#flag_runner .bcg{
+    background-image:url('../img/flag_runner.jpg');
 }
 
 #luke_falk_scanning .bcg{
@@ -93,7 +94,7 @@ One per text slide, in order of appearance
 
 */
 
-#Dummy_Article .bcg{
+#Coming_Home .bcg{
     background: none;
     background-color: #981e32;
     height: 100%;
@@ -144,7 +145,7 @@ These attributes are used as the div class of every text slide
     margin:0px;
     color: white;
     font-size:60px;
-    font-family:titleFont;
+    font-family: 'Russo One', sans-serif;
     margin-top:50px;
 }
 
