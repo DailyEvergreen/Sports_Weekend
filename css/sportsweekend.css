@@ -1,5 +1,5 @@
 ﻿@viewport{
-    width:1000px;
+    width:100%;
 }
 @font-face{
     font-family: titleFont;
@@ -89,7 +89,9 @@ The following are pictures in order of appearance
 
 #flag_runner .bcg{
     background-image:url('../img/flag_runner.jpg');
-    background-size: cover;
+     max-width: 100%;
+     height:auto;
+     width:auto;
 }
 
 #luke_falk_scanning .bcg{
