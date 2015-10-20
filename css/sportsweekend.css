@@ -1,7 +1,4 @@
-﻿@viewport{
-    width:1000px;
-}
-@font-face{
+﻿@font-face{
     font-family: titleFont;
     src:url(../Sablon_Up_College_Alt.otf);
 }
@@ -29,12 +26,13 @@ body{
 }
 .slideContent{
 	max-width: 450px;
-	margin: -150px auto 0px auto;
+	/*margin: -150px auto 0px auto;*/
+    margin: 0px auto 0px auto;
 	display: table-cell;
 	vertical-align: middle;
 	color: #666666;
-	padding: 0 16.66%;
 	text-align: left;
+    word-wrap: normal;
 }
 .bcg{
     background-position: center center;
@@ -77,7 +75,6 @@ z-index determines stack order of an element
     right:0px;
     padding:10px;
     z-index: 9999;
-    
 }
 
 /* 
@@ -187,17 +184,21 @@ These attributes are used as the div class of every text slide
     max-width:100%;
     margin:0px;
     color: white;
-    font-size:60px;
+    /*font-size:60px;*/
+    font-size:6.0vw;
     font-family: 'Russo One', sans-serif;
     margin-top:50px;
 }
 
 .slideContent #text_slide p{
-    max-width:100%;
+    max-width:inherit;
     margin:0px;
     color:white;
-    font-size:24px;
+    /*font-size:24px;*/
+    font-size: 2.4vw;
+    text-align: center;
     font-family:'Open Sans', sans-serif;
+    padding: 0 16.67vw;
 }
 
 /* 
@@ -223,7 +224,7 @@ Not sure if these will be used for sidescrolling or something
 }
 
 section{
-    min-width:960px;
+    /*min-width:960px;*/
     opacity:1;
 }
 
