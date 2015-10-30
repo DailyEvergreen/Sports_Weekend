@@ -1,5 +1,5 @@
 ﻿@viewport{
-    width:100%;
+    width:1000px;
 }
 @font-face{
     font-family: titleFont;
@@ -87,11 +87,14 @@ The following are pictures in order of appearance
 
 */
 
+#marks_jumps .bcg{
+    background-image:url('../img/marks_jumps.jpg');
+    background-size: cover;
+}
+
 #flag_runner .bcg{
     background-image:url('../img/flag_runner.jpg');
-     max-width: 100%;
-     height:auto;
-     width:auto;
+    background-size: cover;
 }
 
 #luke_falk_scanning .bcg{
@@ -117,6 +120,13 @@ One per text slide, in order of appearance
 (Add new slides above old ones) 
 
 */
+#Battletested .bcg{
+    background: none;
+    background-color: #981e32;
+    height: 100%;
+    text-align: center;
+    color:rgb(85,0,0);
+}
 
 #Coming_Home .bcg{
     background: none;
