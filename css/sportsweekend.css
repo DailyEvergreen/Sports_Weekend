@@ -1,4 +1,4 @@
-﻿@viewport{
+@viewport{
     width:1000px;
 }
 @font-face{
@@ -61,6 +61,58 @@ a:visited {
 
 a:hover {
 	color:rgb(85,0,0);
+}
+
+/* This is code for the navbar */
+#navbar {
+    position: fixed;
+    right:0px;
+    padding:10px;
+    z-index:9999;
+    width:50px;
+    
+}
+
+#cs_nav ul {
+  margin: 0;
+}
+
+#cs_nav li {
+  display: none;
+  margin-bottom: 10px;
+  padding: 0 0 0 5px;
+}
+
+#cs_nav li a {
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.75);
+  display: block;
+  height: 20px;
+  text-indent: -9999px;
+  width: 20px;
+/*  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px;  */
+  -webkit-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+       -o-box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#cs_nav li a:hover {
+  background: #FFF;
+  border: 2px solid #fff200;
+  height: 16px;
+  width: 16px;
+}
+
+#cs_nav li:hover,
+
+#cs_nav li.current {
+}
+
+#cs_nav li.current a {
+  background: #fff200;
 }
 
 
