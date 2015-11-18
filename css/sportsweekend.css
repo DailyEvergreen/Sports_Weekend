@@ -32,7 +32,7 @@ body{
 	margin: -150px auto 0px auto;
 	display: table-cell;
 	vertical-align: middle;
-	color: #666666;
+	color: white;
 	padding: 0 16.66%;
 	text-align: left;
 }
@@ -61,6 +61,10 @@ a:visited {
 
 a:hover {
 	color:rgb(85,0,0);
+}
+
+.strong {
+    font-size:28;
 }
 
 /* This is code for the navbar */
@@ -113,6 +117,34 @@ a:hover {
 
 #cs_nav li.current a {
   background: #fff200;
+}
+
+/* This is used for formatting large quotes */
+/* Outer box */
+.lrgqtbox {
+    div-align:center;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Quote Style */
+.lrgqt {
+    font-size:30px;
+    color:white;
+    font-weight:/* Be */bolder;
+    div-align:center;
+    text-align:left;
+    font-style:italic;
+}
+/* Quote Author */
+.lrgqta {
+    div-align:center;
+    text-align:right;
+    font-size:28px;
+    font-style:normal;
 }
 
 
