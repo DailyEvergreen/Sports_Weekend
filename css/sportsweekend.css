@@ -170,6 +170,16 @@ The following are pictures in order of appearance
 (Add new images to the top) 
 
 */
+#float_like_a_coug .bcg{
+    background-image:url('../img/float_like_a_coug.jpg');
+    background-size: cover;
+}
+
+#dwill_stands .bcg{
+    background-image:url('../img/dwill_stands.jpg');
+    background-size: cover;
+}
+
 #luke_falk_fighting_stanford .bcg{
     background-image:url('../img/luke_falk_fighting_stanford.jpg');
     background-size: cover;
